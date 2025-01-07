@@ -1,5 +1,5 @@
-= Redmine
-
-Redmine is a flexible project management web application written using Ruby on Rails framework.
-
-More details can be found in the doc directory or on the official website http://www.redmine.org
+Стандартный запуск(хз как это будет на локалке, но я запускаю так):
+1. Заходим на сервер root 150.241.93.19(pass: nigk3FMjDS5w)
+2. Переходим в /var/www/redmine
+3. Прописываем bundle exec rails server -u webrick -e production
+4. Наслаждаемся
