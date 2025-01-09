@@ -25,7 +25,7 @@ pre, code {font-family: Consolas, Menlo, "Liberation Mono", Courier, monospace;}
 }
 
 #top-menu {background: #3E5B76; color: #fff; height:1.8em; font-size: 0.8em; padding: 2px 10px 0px 12px;}
-#top-menu ul {margin: 0;  padding: 0;}
+#top-menu ul {margin: 0;  padding: 0; display: flex; justify-content: space-between; flex-wrap: wrap;}
 #top-menu li {
   float:left;
   list-style-type:none;
@@ -36,19 +36,19 @@ pre, code {font-family: Consolas, Menlo, "Liberation Mono", Courier, monospace;}
 #top-menu a {color: #fff; margin-right: 8px; font-weight: bold;}
 #top-menu #loggedas { float: right; margin-right: 0.5em; color: #fff; }
 
-#account {float:right;}
+/*#account {float:right; white-space: nowrap; overflow: visible; }*/
 
-#header {min-height:5.3em;margin:0;background-color:#628DB6;color:#f8f8f8; padding: 4px 16px 20px 16px; position:relative;}
+#header {min-height:6.3em;margin:0;background-color:#628DB6;color:#f8f8f8; padding: 4px 16px 26px 20px; position:relative;}
 #header a {color:#f8f8f8;}
 #header h1 { overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
 #header h1 .breadcrumbs { display:block; font-size: .5em; font-weight: normal; }
 
-#quick-search {float:right;}
+/*#quick-search {float:right;}
 #quick-search #q {width:130px; height:24px; box-sizing:border-box; vertical-align:middle; border:1px solid #ccc; border-radius:3px;}
 #quick-search form {float:left; margin-right:3px;}
 #quick-search form input {margin-top:0; margin-bottom:0;}
 #quick-search form label {vertical-align:middle;}
-#quick-search #project-jump {float:left;}
+#quick-search #project-jump {float:left;}*/
 
 #main-menu {position: absolute;  bottom: 0px;  left: 10px; margin-right: -500px; width: 100%;}
 #main-menu ul {margin: 0;  padding: 0; width: 100%; white-space: nowrap;}

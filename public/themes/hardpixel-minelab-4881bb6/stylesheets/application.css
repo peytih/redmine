@@ -257,7 +257,7 @@ bundle exec rails server -u webrick -e production  0%, 50% {
   -webkit-border-radius: 0 !important;
   border-radius: 0 !important; }
 
-.ui-state-error a, .ui-state-error .icon-add.checklist-new-only, .ui-widget-content .ui-state-error a, .ui-widget-content .ui-state-error .icon-add.checklist-new-only, .ui-widget-header .ui-state-error a, .ui-widget-header .ui-state-error .icon-add.checklist-new-only {
+.ui-state-error a, .ui-state-error .icon-add.checklist-new-only, .ui-widget-content .ui-state-error a, .ui-widget-content .ui-state-error .icon-add.checklist-new-only, .ui-widget-wheader .ui-state-error a, .ui-widget-header .ui-state-error .icon-add.checklist-new-only {
   color: #cd0a0a; }
 
 .ui-state-error-text, .ui-widget-content .ui-state-error-text, .ui-widget-header .ui-state-error-text {
@@ -5117,13 +5117,15 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
       content: url("../images/logo.svg"); }
     #header .home:hover, #header .home:active {
       background: rgba(71, 77, 87, 0.5); }
-  #header #quick-search {
+/*  #header #quick-search {
     position: relative;
     top: 0.65em;
-    z-index: 5; }
+    z-index: 5; 
+    max-width: 200px;
+    white-space: nowrap;} 
     #header #quick-search .icon-search:before {
       z-index: 5;
-      position: absolute;
+      position: relative;
       left: 1.6em;
       top: 0.15em;
       color: #474D57; }
@@ -5141,7 +5143,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
       #header #quick-search #q:active, #header #quick-search #q:focus {
         color: #333333;
         background: white;
-        width: 15em; }
+        width: 15em; }*/
   #header a, #header .icon-add.checklist-new-only, #header a:hover, #header .icon-add.checklist-new-only:hover, #header a:active, #header .icon-add.checklist-new-only:active, #header a:focus, #header .icon-add.checklist-new-only:focus {
     color: white; }
   #header .select2-container {
